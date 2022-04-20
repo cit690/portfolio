@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cairo', sans-serif;
+  background-color: #dceff5;
+  color: #084c61;
+  font-size: 25px;
+}
+
+header{
+  width: 100%;
+  background-color: #084c61;
+  color: #dceff5;
+  font-size: 25px;
+}
+
+h1, h2, h5{
+  margin: 0 auto;
+}
+
+h1{
+  height: 70px;
+}
+
+h5{
+  color: #ffc857;
+}
+
+.profile-img{
+  width: 250px;
+  border: 2px solid #ffc857;
+  border-radius: 50%;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: #084c61;
+}
+
