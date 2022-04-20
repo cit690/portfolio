@@ -60,20 +60,33 @@ h5{
   font-size: 20px;
   text-align: center;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+  flex-wrap: row wrap;
+  justify-items: center;
   align-items: center;
 }
 
-h3{
-  margin:0 auto;
+
+.app-description{
+  display: flex;
+  justify-content: flex-start;
+  width: 25%;
+  height: 100%;
+
+}
+
+.link{
+  width: 40%;
 }
 
 .app-screenshot{
-  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 footer{
+  display: flex;
+  justify-content: space-evenly;
   position:fixed;
   bottom:0;
   width:100%;
