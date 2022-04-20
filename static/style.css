@@ -1,5 +1,6 @@
 body{
   text-align: center;
+  display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
@@ -7,6 +8,8 @@ body{
   background-color: #dceff5;
   color: #084c61;
   font-size: 25px;
+  margin: 0 auto;
+  margin-bottom: -50px;
 }
 
 header{
@@ -16,12 +19,16 @@ header{
   font-size: 25px;
 }
 
-h1, h2, h5{
+h1, h5{
   margin: 0 auto;
 }
 
 h1{
-  height: 70px;
+  height: 75px;
+}
+
+h2{
+  margin: 10px 0 15px 0;
 }
 
 h5{
@@ -34,8 +41,40 @@ h5{
   border-radius: 50%;
 }
 
+.content{
+  margin-bottom: 50px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio{
+  margin: 15px 15px 40px 15px;
+}
+
+.container{
+  margin: 20px;
+  width: 75%;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  margin:0 auto;
+}
+
+.app-screenshot{
+  width: 50%;
+}
+
 footer{
-  position:absolute;
+  position:fixed;
   bottom:0;
   width:100%;
   background-color: #084c61;
